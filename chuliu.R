@@ -21,8 +21,8 @@ chuliu <- function (G, root){
     Thgzc <- searchZeroCycle(1:vcount(Thg),cbind(get.edgelist(Thg),E(Thg)$weight))
     cc <- compactCycle(1:vcount(Ghg),cbind(get.edgelist(Ghg),E(Ghg)$weight),Thgzc$cycle.nodes)
     stages[[length(stages) + 1]] <- cc
-    Ghg <- graph_from_edgelist(cc$arcs[,1:2])
-    Ghg <- set.edge.attribute(Ghg, "weight", value = cc$arcs[,3])
+    Ghg <- graph_from_edgelist(cc$arcs[,1:2, drop = F])
+    Ghg <- set.edge.attribute(Ghg, "weight", value = cc$arcs[,3, drop = F])
     Thg <- incoming(Ghg)
     trees[[length(trees) + 1]] <- Thg
   }
@@ -37,10 +37,10 @@ chuliu <- function (G, root){
     lastadj <- matrix(0,length(laststage$nodes),length(laststage$nodes))
     lastadj[get.edgelist(lasttree)] <- E(lasttree)$weight
     lastgadj <- matrix(0,length(laststage$nodes),length(laststage$nodes))
-    lastgadj[laststage$arcs[,1:2]] <- laststage$arcs[,3]
+    lastgadj[laststage$arcs[,1:2, drop = F]] <- laststage$arcs[,3, drop = F]
     newadj <- matrix(0,length(laststage$nodes),length(laststage$nodes))
-    incycle <- thisstage$matches[thisstage$matches[,2] == thisstage$super.node,1]
-    receptor <- thisstage$matches[thisstage$matches[,1] %in% incycle,2][1]
+    incycle <- thisstage$matches[thisstage$matches[,2, drop = F] == thisstage$super.node,1]
+    receptor <- thisstage$matches[thisstage$matches[,1, drop = F] %in% incycle,2][1]
     for (i in 1:nrow(newadj)){
       for (j in 1:ncol(newadj)){
         if (i %in% incycle & j %in% incycle){
