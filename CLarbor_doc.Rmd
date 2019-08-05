@@ -255,3 +255,7 @@ Georgiadis, L. (2003) Arborescence optimization problems solvable by Edmonds’ 
 Hammarström, H. & Forkel, R. & Haspelmath, M. (2018) Glottolog 3.0. Jena: Max Planck Institute for the Science of Human History.
 
 Hammarström, H & L. O’Connor. (2013) Dependency sensitive typological distance. in Borin & Saxena (eds) _Approaches to Measuring Linguistic Differences_. De Gruyter Mouton.
+
+Reesink, G., R. Singer & M. Dunn (2009) Explaining the linguistic diversity of Sahul using population methods. PloS Biology 7(11). e1000241.
+
+Reesink, G. & M, Dunn. (2012) Systematic typological comparison as a tool for investi- gating language history. In Nicholas Evans & Marian Klamer (eds.), Language Documenta- tion & Conservation Special Publication No 5: Melanesian Languages on the Edge of Asia: Challenges for the 21st Century, .
