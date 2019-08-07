@@ -1,0 +1,293 @@
+Feature	Feature_ID	Abbreviation	binary_or_multi	group
+Are 1st and 2nd persons conflated in any context?	SAHUL032	12PronConfl	binary	pronouns
+Are 2nd and 3rd persons conflated in non-singular numbers?	SAHUL033	23PronConfl	binary	pronouns
+Are adjectives classified?	SAHUL2.8.06	AdjectivesClass	binary	classifiers
+Are all intransitive verbs marked in the same way for core participants?	SAHUL3.3.13	VerbIntransSame	binary	argument structure
+Are all transitive verbs marked in the same way for core participants?	SAHUL3.3.14	VerbTransSame	binary	argument structure
+Are any of the spatial demonstratives not speaker-based?	SAHUL2.3.04	DemDistNonSpeaker	binary	deixis
+Are benefactive nominals marked on the verb?	SAHUL103	BenMarkedV	binary	argument structure
+Are both prefixes/proclitics and suffixes/enclitics absent from verbs?	SAHUL3.1.07	VerbNoPrefixSuffix	binary	order
+Are categories such as person, number, gender related to a single participant discontinuously marked on a verb?	SAHUL102	DistributedCategory	binary	argument structure
+Are causatives formed by bound affixes/clitics?	SAHUL155	AffixCaus	binary	causatives
+Are causatives formed by constructions involving 'say'?	SAHUL156	SayConstCaus	binary	causatives
+Are causatives formed by serial verb constructions?	SAHUL154	SerialVCaus	binary	causatives
+Are demonstratives classified?	SAHUL038	DemClassifier	binary	classifiers
+Are elements apart from verbs or nouns reduplicated?	SAHUL160	OtherRedup	binary	reduplication
+Are more than 2 degrees of distance morphologically marked in demonstratives?	SAHUL2.3.02	DemDist2	binary	deixis
+Are more than 3 degrees of distance morphologically marked in demonstratives?	SAHUL2.3.03	DemDist3	binary	deixis
+Are nouns reduplicated?	SAHUL159	NounRedup	binary	reduplication
+Are NPs N-initial (except for articles)?	SAHUL2.1.04	NPNinital	binary	order
+Are person categories neutralized under some conditions?	SAHUL034	PersCatNeut	binary	argument structure
+Are person, number and any TAM category (i.e. 3 or more categories in all) marked by portmanteau morphemes on verbs?	SAHUL101	Portmanteau3Plus	binary	argument structure
+Are relative clauses internally headed?	SAHUL4.3.06	RelativeClauseInternalHead	binary	relative
+Are S and A conflated morphologically across clause boundaries, i.e. acting as syntactic pivot?	SAHUL144	SAPivot	binary	syntax_other
+Are S and A conflated morphologically in at least some basic constructions, i.e. simple main clauses?	SAHUL142	SAMorphConfl	binary	syntax_other
+Are S and O conflated morphologically across clause boundaries, i.e. acting as syntactic pivot?	SAHUL143	SOPivot	binary	syntax_other
+Are S and O conflated morphologically in at least some basic constructions, i.e. simple main clauses?	SAHUL141	SOMorphConfl	binary	syntax_other
+Are there 'discontinuous noun phrases'?	SAHUL026	DiscontNP	binary	order
+Are there (several) verbs which can be used either transitively or intransitively with no morphological marking?	SAHUL112	LabileVerbs	binary	transitivity
+Are there adjectives?	SAHUL2.8.01	Adjectives	binary	adjectives
+Are there adpositions to mark core NPs?	SAHUL2.9.05x	CoreNPAdpos	binary	argument structure
+Are there adpositions to mark core NPs?	SAHUL076	CoreNPAdpos	binary	argument structure
+Are there adpositions to mark oblique NPs?	SAHUL077	OblNPAdpos	binary	argument structure
+Are there adpositions to mark oblique NPs?	SAHUL2.9.06x	OblNPAdpos	binary	argument structure
+Are there affixes on the verb?	SAHUL3.1.01	VerbAffix	binary	argument structure
+Are there as many points of articulation for nasals as there are for stops?	SAHUL001	NstopEqNNas	binary	phonology
+Are there aspectual auxiliaries?	SAHUL120	AspectAux	binary	TAME
+Are there associative plurals?	SAHUL046	AssocPl	binary	number nouns
+Are there classifiers that specify a number of units?	SAHUL2.7.05	QuantClass	binary	classifiers
+Are there classifiers which aren't numeral or possessive classifiers?	SAHUL2.5.11	ClassifersOther	binary	classifiers
+Are there classifiers?	SAHUL2.5.08	Classifiers	binary	classifiers
+Are there clitics and satellite particles associated with verbs forming a constituent with the verb on some level?	SAHUL3.1.02	VerbClitics	binary	syntax_other
+Are there complement clauses for perception verbs?	SAHUL4.3.09b	ComplementClausePercept	binary	complement
+Are there complement clauses for speech verbs?	SAHUL4.3.09a	ComplementClauseSpeech	binary	complement
+Are there complement clauses?	SAHUL4.3.09	ComplementClause	binary	complement
+Are there conditional non-finite subordinate clauses?	SAHUL4.3.08a	SubordNonFinCond	binary	complement
+Are there conjugation classes?	SAHUL111	ConjClasses	binary	classifiers
+Are there consonant clusters (not counting prenasalized consonants) in syllable coda?	SAHUL019	CodaCClust	binary	phonology
+Are there consonant clusters (not counting prenasalized consonants) in syllable onset?	SAHUL018	OnsetCClust	binary	phonology
+Are there consonant clusters?	SAHUL1.2.03	ConsClusters	binary	phonology
+Are there contrastive phonation types for vowels?	SAHUL1.1.12	VowelPhonation	binary	phonology
+Are there declensions (partly) determined by gender of the noun?	SAHUL040	GenderDecl	binary	classifiers
+Are there declensions (partly) determined by number of the noun?	SAHUL039	NumDecl	binary	number nouns
+Are there definite or specific articles?	SAHUL020	DefSpecArt	binary	deixis
+Are there degrees of distance morphologically marked in demonstratives?	SAHUL2.3.01	DemDist	binary	deixis
+Are there different orders of elements in a possessive phrase for different classes of possession?	SAHUL066	DiffOrdPoss	binary	classifiers
+Are there different possessive constructions?	SAHUL060	MultPossCons	binary	deixis
+Are there fricative phonemes?	SAHUL003	Frics	binary	phonology
+Are there indefinite or non-specific articles?	SAHUL2.1.02	IndefArticle	binary	deixis
+Are there modal auxiliaries?	SAHUL119	ModalAux	binary	TAME
+Are there multiple past or future tenses, distinguishing distance from Time of Reference, marked on the verb?	SAHUL085	MultiTense	binary	TAME
+Are there non-verbal predicates?	SAHUL3.7.02	NonVerbalPred	binary	syntax_other
+Are there noun classes/genders?	SAHUL050	Genders	binary	classifiers
+Are there noun decelensions which are based on something other than number or gender?	SAHUL2.4.04	NounDeclNotGenderNum	binary	number nouns
+Are there noun declensions?	SAHUL2.4.01	NounDecl	binary	classifiers
+Are there nouns which are suppletive for number?	SAHUL041	SuppletiveN	binary	number nouns
+Are there numeral classifiers?	SAHUL057	NumClassif	binary	classifiers
+Are there other spatial features marked on demonstratives apart from distance and/or verticality?	SAHUL2.3.06	DemDistOther	binary	deixis
+Are there other subordinate clauses apart from relative, purposive, temporal and complement?	SAHUL4.3.10	SubordOther	binary	syntax_other
+Are there other types of causative construction?	SAHUL4.4.04	CausOther	binary	causatives
+Are there participle or gerund constructions, morphologically separate from RC or subordinate clauses?	SAHUL4.3.11	Participle	binary	syntax_other
+Are there phonemic prenasalised stops?	SAHUL004	PrenasStops	binary	phonology
+Are there positional (classificatory) verbs?	SAHUL127	PositionialV	binary	classifiers
+Are there possessive classes?	SAHUL2.6.01	ClassifersPoss	binary	classifiers
+Are there possessive classifiers?	SAHUL058	PossClassif	binary	classifiers
+Are there postnominal articles?	SAHUL023	PostnomArt	binary	order
+Are there postpositions?	SAHUL075	Postpositions	binary	order
+Are there postpositions?	SAHUL2.9.04x	Postpositions	binary	order
+Are there prenominal articles?	SAHUL022	PrenomArt	binary	order
+Are there prepositions?	SAHUL074	Prepositions	binary	order
+Are there prepositions?	SAHUL2.9.03x	Prepositions	binary	order
+Are there purposive non-finite subordinate clauses?	SAHUL4.3.07	SubordNonFinPurpose	binary	syntax_other
+Are there rare phonemes or phonemes which occur only in loans or phonemes which are obviously recent introductions in the language?	SAHUL1.1.14	RarePhonemes	binary	phonology
+Are there relative clauses, i.e. embedded construction by which a clause modifies a head N?	SAHUL4.3.05a	RelativeClauseEmbed	binary	relative
+Are there relative clauses?	SAHUL4.3.05	RelativeClause	binary	relative
+Are there retroflexed consonants?	SAHUL009	RetroflexC	binary	phonology
+Are there self-converse grandparent terms?	SAHUL5.2.04	GrandparentsSelcConv	binary	kinship
+Are there serial verb constructions?	SAHUL118	SerialVConst	binary	complex_verb
+Are there specialised lexicons, eg. hunting language, taboo languages etc.?	SAHUL6.1.03	HuntingRegister	binary	other
+Are there suppletive verbs for number of participants?	SAHUL109	VSuppletion	binary	argument structure
+Are there suppletive verbs for tense or aspect?	SAHUL110	TASuppletion	binary	TAME
+Are there syllable-final consonants?	SAHUL1.2.01	ConsSyllableFinal	binary	phonology
+Are there syntactically ditransitive verbs?	SAHUL106	DitransitiveVerbs	binary	syntax_other
+Are there TAM categories marked on the verb by affixes?	SAHUL3.2.01	VerbTAMAffix	binary	TAME
+Are there TAM categories marked on the verb by means other than affixes?	SAHUL3.2.02	VerbTAMOther	binary	TAME
+Are there temporal non-finite subordinate clauses?	SAHUL4.3.08	SubordNonFinTemp	binary	TAME
+Are there tense auxiliaries?	SAHUL121	TenseAux	binary	TAME
+Are there two or more contrastive central vowels?	SAHUL012	CentralVContr	binary	phonology
+Are there variations in marking strategies on verbs based on something other than TAM, verb class, clause type or person?	SAHUL3.3.19	MarkingVariationsOther	binary	argument structure
+Are there verb-adjunct (aka light-verb) constructions?	SAHUL123	VAdjuncts	binary	syntax_other
+Are there word-final consonants?	SAHUL017	WordFinalC	binary	phonology
+Are there words for particular amounts of a thing?	SAHUL2.7.04	QuantWord	binary	number nouns
+Are variations in marking strategies  of core participants based on person distinctions?	SAHUL098	VVarPerson	binary	argument structure
+Are variations in marking strategies of core participants based on clause type, e.g. main vs. subordinate?	SAHUL097	VVarClType	binary	argument structure
+Are variations in marking strategies of core participants based on TAM distinctions?	SAHUL095	VVarTam	binary	argument structure
+Are variations in marking strategies of core participants based on verb classes?	SAHUL096	VVarVClass	binary	argument structure
+Are verbal and non-verbal predicates marked by the same negator?	SAHUL140	VNonVNeg	binary	negation
+Are verbs reduplicated?	SAHUL158	VerbRedup	binary	reduplication
+Can any other number category besides singular, dual or plural be marked on the noun itself?	SAHUL2.4.10	NounNumOther	binary	number nouns
+Can dual number be marked on the noun itself?	SAHUL043	DualMarkedN	binary	number nouns
+Can infixation be used on verbs for derivational, aspectual, or voice-changing purposes?	SAHUL081	VInfix	binary	other_verb
+Can instruments be marked on the verb?	SAHUL104	InstMarkedV	binary	argument structure
+Can locative or direction be morphologically marked on the verb?	SAHUL108	VLocativeDir	binary	argument structure
+Can negation be marked clause-finally?	SAHUL137	ClFinalNeg	binary	negation
+Can negation be marked clause-initially?	SAHUL138	ClInitNeg	binary	negation
+Can number distinctions be marked on the noun itself (include suppletion)?	SAHUL2.4.06	NounNum	binary	number nouns
+Can plural number be marked on the noun itself?	SAHUL044	PlMarkedN	binary	number nouns
+Can possession be marked by a prefix?	SAHUL061	PossPrefix	binary	order
+Can possession be marked by a suffix?	SAHUL062	PossSuffix	binary	order
+Can possession be marked morphologically?	SAHUL2.6.04	PossMorph	binary	possession
+Can possession be marked on the nominal possessee?	SAHUL064	MarkedPossd	binary	possession
+Can possession be marked on the nominal possessor?	SAHUL063	MarkedPossr	binary	possession
+Can recipients be treated as a transitive object, i.e. as Direct Object?	SAHUL105	RecipientObj	binary	argument structure
+Can singular number be marked on the noun itself?	SAHUL042	SingMarkedN	binary	number nouns
+Describe semantic conflations, particularly in the area of body parts, landscape?	SAHUL6.1.02	ColexificationBodyLandscape	multi	other
+Describe the kinship system?	SAHUL6.1.01	KinshipDesc	multi	kinship
+Do adjectives function attributively?	SAHUL2.8.03	AdjectivesAttr	binary	adjectives
+Do adjectives function predicatively?	SAHUL2.8.04	AdjectivesPred	binary	adjectives
+Do clausal objects occur in the same position as nominal objects?	SAHUL135	ClObjPoss	binary	syntax_other
+Do core adjectives (defined semantically as property concepts; value, shape, age, dimension) act like verbs in predicative position?	SAHUL068	VlikePredAdj	binary	adjectives
+Do core adjectives (defined semantically as property concepts; value, shape, age, dimension) used attributively require the same morphological treatment as verbs?	SAHUL069	VlikeAttrAdj	binary	adjectives
+Do numerals occur in NP after the N?	SAHUL2.1.05b	NNum	binary	order
+Do numerals occur in NP before the N?	SAHUL2.1.05a	NumN	binary	order
+Do S and O operate in the same way, and differently from A, for the purpose of any syntactic construction?	SAHUL145	SOConflOther	binary	argument structure
+Do the same morphemes systematically encode both TAM and person?	SAHUL3.1.03	TAMPersonPortmanteau	binary	TAME
+Do verb stems alter according to the number of a core participant?	SAHUL3.3.20	NumberStemAlt	binary	argument structure
+Do verb stems alter according to the person of a core participant?	SAHUL099	PersonStemAlt	binary	argument structure
+Do verbs classify the shape, size, consistency or position of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?	SAHUL116	ShapeClass	binary	classifiers
+Do verbs have prefixes/proclitics, other than those that ONLY mark A, S or O (do include portmanteau: A & S + TAM)?	SAHUL079	VPrefixASO	binary	order
+Do verbs have prefixes/proclitics?	SAHUL3.1.04	VerbPrefix	binary	order
+Do verbs have suffixes/enclitics, other than those that ONLY mark A, S or O (do include portmanteau: A & S + TAM)?	SAHUL080	VSuffixASO	binary	order
+Do verbs have suffixes/enclitics?	SAHUL3.1.05	VerbSuffix	binary	order
+Does reduplication exist in the language?	SAHUL4.5.04	Reduplication	binary	reduplication
+Does the absolute FOR system include an axis besides inland/seawards or east/west?	SAHUL5.1.04	AbsoluteFrameOther	binary	deixis
+Does the absolute FOR system include an east/west axis?	SAHUL5.1.03	AbsoluteFrameEast	binary	deixis
+Does the absolute FOR system include an inland/seaward axis?	SAHUL5.1.02	AbsoluteFrameInland	binary	deixis
+Does the Demonstrative occur in the NP after the N?	SAHUL2.1.05d	NDem	binary	order
+Does the Demonstrative occur in the NP before the N?	SAHUL2.1.05c	DemN	binary	order
+Does the language only have a gender distinction in 3rd person pronouns?	SAHUL055	GenderOnly3	binary	classifiers
+Does the same lexical set of adjectives function both attributively and predicatively?	SAHUL2.8.05	AdjectivesLexicalSet	binary	adjectives
+Give the phoneme inventory.	SAHUL1.1.01	PhonemeInv	multi	phonology
+How many fused aspect/mood categories are distinguished on the verb?	SAHUL3.2.08	VerbAMFused	multi	TAME
+How many fused tense/aspect categories are distinguished on the verb?	SAHUL3.2.06	VerbTAFused	multi	TAME
+How many fused tense/aspect/mood categories are distinguished on the verb?	SAHUL3.2.09	VerbTAMFused	multi	TAME
+How many fused tense/mood categories are distinguished on the verb?	SAHUL3.2.07	VerbTMFused	multi	TAME
+How many manners of articulation are there?	SAHUL1.1.04	ArticulationManners	multi	phonology
+How many places of articulation are there for nasals?	SAHUL1.1.03	ArticulationPlaceNasal	multi	phonology
+How many places of articulation are there for stops?	SAHUL1.1.02	ArticulationPlaceStop	multi	phonology
+How many pure aspects are distinguished on the verb?	SAHUL3.2.04	VerbPureAspect	multi	TAME
+How many pure moods are distinguished on the verb?	SAHUL3.2.05	VerbPureMoods	multi	TAME
+How many pure tenses are distinguished on the verb?	SAHUL3.2.03	VerbPureTense	multi	TAME
+How many vowel positions are there?	SAHUL1.1.13	VowelPosition	multi	phonology
+If the order of elements in a possessive construction is fixed, is it possessor-possessed?	SAHUL2.6.09	PossrPossdIfFixed	binary	order
+If there are noun classes/genders, state how many.	SAHUL2.5.01a	GenderMany	multi	classifiers
+Is a distinction between punctual/continuous aspect available as a morphological choice?	SAHUL086	PunctualCont	binary	TAME
+Is a distinction between realis/irrealis mood available as a morphological choice?	SAHUL087	RealisIrreal	binary	TAME
+Is a non-core participant marked on the verb?	SAHUL3.4.01	VerbOblqMorph	binary	argument structure
+Is a pragmatically unmarked constituent order SV for intransitive clauses?	SAHUL4.1.01	IntransSV	binary	order
+Is a pragmatically unmarked constituent order verb-final for transitive clauses?	SAHUL133	VFinalTrans	binary	order
+Is a pragmatically unmarked constituent order verb-initial for transitive clauses?	SAHUL131	VInitTrans	binary	order
+Is a pragmatically unmarked constituent order verb-medial for transitive clauses?	SAHUL132	VMedTrans	binary	order
+Is a pragmatically unmarked constituent order VS for intransitive clauses?	SAHUL4.1.02	IntransVS	binary	order
+Is alienable/inalienable a relevant distinction?	SAHUL059	Inalien	binary	possession
+Is an indefinite NP obligatorily accompanied by an indefinite (or non-specific) article?	SAHUL021	IndefArticleObl	binary	deixis
+Is animacy (without reference to sex) a relevant category in the noun class/gender system?	SAHUL053	AnimGender	binary	classifiers
+Is any other category apart from TAM, person, gender, number, direction or negation marked on verbs?	SAHUL3.5.06	VerbMorphOther	binary	negation
+Is constituent order fixed?	SAHUL136	FixedConOrd	binary	order
+Is direction marked on verbs?	SAHUL3.5.05	VerbDirection	binary	argument structure
+Is elevation morphologically marked in demonstratives?	SAHUL036	VerticalDem	binary	deixis
+Is gender marked anywhere separately to person?	SAHUL3.5.02	GenderSepPerson	binary	classifiers
+Is intransitive subject (S) marked on verbs?	SAHUL3.3.01	VerbSMorph	binary	transitivity
+Is negation marked morphologically on the verbs?	SAHUL107	VNegation	binary	negation
+Is number ever marked separately from person on the verb?	SAHUL100	SepVerbNumPerson	binary	argument structure
+Is number marked anywhere separately to person on verbs?	SAHUL3.5.03	NumSepPerson	binary	argument structure
+Is number marked in pronouns?	SAHUL2.2.03	ProNum	binary	pronouns
+Is number marking prohibited on certain (types of) nouns?	SAHUL045	LimitedNum	binary	number nouns
+Is plant status a relevant category in the noun class/gender system?	SAHUL054	PlantGender	binary	classifiers
+Is possessed-possessor a normal order for elements of the attributive possessive construction?	SAHUL2.6.09b	PossdPossr	binary	order
+Is possessor-possessed a normal order for elements of the attributive possessive construction?	SAHUL2.6.09a	PossrPossd	binary	order
+Is relative age a factor in differentiating at least one sibling term?	SAHUL5.2.10	SiblingAge	binary	kinship
+Is sex a relevant category in the noun class/gender system?	SAHUL051	SexGender	binary	classifiers
+Is sex of referent a factor in differentiating at least one sibling term?	SAHUL5.2.11	SiblingSexReferent	binary	kinship
+Is sex of speaker a factor in differentiating at least one sibling term?	SAHUL5.2.12	SiblingSexSpeaker	binary	kinship
+Is shape a relevant category in the noun class/gender system?	SAHUL052	ShapeGender	binary	classifiers
+Is the A participant (at least sometimes) marked by a prefix/proclitic?	SAHUL092	APrefix	binary	argument structure
+Is the A participant (at least sometimes) marked by a suffix/enclitic?	SAHUL091	ASuffix	binary	argument structure
+Is the gender of a participant marked on verbs?	SAHUL3.3.05	VerbGender	binary	argument structure
+Is the number of a participant marked on verbs?	SAHUL3.3.06	VerbNumber	binary	number verb
+Is the O participant (at least sometimes) marked by a prefix/proclitic?	SAHUL094	OPrefix	binary	argument structure
+Is the O participant (at least sometimes) marked by a suffix/enclitic?	SAHUL093	OSuffix	binary	argument structure
+Is the opposition visible-non-visible marked on demonstratives?	SAHUL037	VisNonvisDem	binary	deixis
+Is the order of constituents the same in main and subordinate clauses?	SAHUL134	MainSubClOrd	binary	order
+Is the order of NP elements Art N?	SAHUL2.1.03	ArtN	binary	order
+Is the person of a participant marked on verbs?	SAHUL3.3.04	VerbPerson	binary	argument structure
+Is the S participant (at least sometimes) marked by a prefix/proclitic?	SAHUL090	SPrefix	binary	argument structure
+Is the S participant (at least sometimes) marked by a suffix/enclitic?	SAHUL089	SSuffix	binary	argument structure
+Is the term for a man's child distinct from the term for a woman's child?	SAHUL5.2.08	ChildDistinctMotherFather	binary	kinship
+Is the term for a man's child the same as the term for a woman's brother's child?	SAHUL5.2.09	ChildDistinctMotherUncle	binary	kinship
+Is the term for father the same as the term for father's brother  (i.e. F = FB)?	SAHUL5.2.02	FSameFB	binary	kinship
+Is the term for mother's brother the same as the term for father's brother (i.e. MB = FB)?	SAHUL5.2.03	MBSameFB	binary	kinship
+Is the verb 'give' morphologically peculiar (different from most other verbs)?	SAHUL128	IrregGive	binary	argument structure
+Is the verb 'say' or a quotative construction used in desiderative constructions?	SAHUL153	DesidSay	binary	argument structure
+Is there a body-part tallying system?	SAHUL2.7.03a	CountBody	binary	counting
+Is there a complementizer that follows a complement clause?	SAHUL4.3.09d	ComplementizerPost	binary	syntax_other
+Is there a complementizer that precedes a complement clause?	SAHUL4.3.09c	ComplementizerPre	binary	syntax_other
+Is there a construction encoding kin dyads?	SAHUL5.2.01	KinDyads	binary	kinship
+Is there a copula for predicate nouns?	SAHUL117	Copula	binary	syntax_other
+Is there a counting system which is not decimal or quinary?	SAHUL2.7.03	CountOther	binary	counting
+Is there a decimal counting system?	SAHUL2.7.01	CountDec	binary	counting
+Is there a difference between imperative and declarative negation?	SAHUL139	ImpDeclNeg	binary	negation
+Is there a difference between the marking of NP coordination ('John and Mary went to market') and the marking of comitative phrases ('John went to market with Mary')?	SAHUL027	CoordComit	binary	syntax_other
+Is there a distinction between locational and directional adpositions?	SAHUL078	LocDirAdpos	binary	deixis
+Is there a dual (or unit augmented) in addition to a plural (or augmented) number category in pronouns?	SAHUL031	DualPronoun	binary	counting
+Is there a gender distinction in 3rd person pronouns (or demonstratives, if no 3rd person pronouns)?	SAHUL030	GenDist3rd	binary	classifiers
+Is there a laminal/apical contrast?	SAHUL008	LaminalApical	binary	phonology
+Is there a minimal counting system or no clear number altogether?	SAHUL2.7.03b	CountMinimal	binary	counting
+Is there a minimal-augmented system?	SAHUL029	MinAug	binary	pronouns
+Is there a morpho-syntactic distinction between predicates expressing controlled versus uncontrolled events or states?	SAHUL146	ControlPred	binary	other
+Is there a morphologically marked antipassive?	SAHUL148	MorphAntipas	binary	transitivity
+Is there a morphologically marked distinction between simultaneous and sequential clauses?	SAHUL152	SimSeqCl	binary	TAME
+Is there a morphologically marked inverse?	SAHUL149	MorphInverse	binary	transitivity
+Is there a morphologically marked passive construction?	SAHUL147	MorphPass	binary	transitivity
+Is there a morphologically-marked switch reference system?	SAHUL151	SwitchRef	binary	transitivity
+Is there a notably small number, i.e. about 100 or less, of verbs in the language?	SAHUL129	ClosedClassV	binary	complex_verb
+Is there a phonemic distinction between l/r?	SAHUL005	LRDist	binary	phonology
+Is there a phonemic velar fricative or glide?	SAHUL006	PhonVelarFricOrGlide	binary	phonology
+Is there a productive morphologically marked Action/state nominalization (arrive/arrival)?	SAHUL047	ActStateNmzr	binary	other
+Is there a productive morphologically marked Agentive nominalization (sing-er)?	SAHUL048	AgentiveNmzr	binary	other
+Is there a productive morphologically marked Object nominalization (sing; song)?	SAHUL049	ObjectNmzr	binary	other
+Is there a relative FOR system?	SAHUL5.1.06	AbsoluteFrameRelative	binary	deixis
+Is there a terminological distinction between cross- and parallel-cousins?	SAHUL5.2.05	CousinsCrossParallel	binary	kinship
+Is there a terminological distinction between first and second cousins (for at least some types of cousin)?	SAHUL5.2.06	CousinsFirstSecond	binary	kinship
+Is there a terminological distinction between patrilateral and matrilateral cousins (for at least some types of cousin)?	SAHUL5.2.07	CousinsMatriPatri	binary	kinship
+Is there a tonal system?	SAHUL016	Tonal	binary	phonology
+Is there a voicing contrast between oral (i.e. non-prenasal) stops?	SAHUL007	VoiceContr	binary	phonology
+Is there an absolute frame of reference (FOR) system?	SAHUL5.1.01	AbsoluteFrame	binary	deixis
+Is there an Actor voice contrasted with one or more Undergoer voices?	SAHUL4.2a.04	ActorUndergoerVoice	binary	transitivity
+Is there an apprehensive modal category marked on the verb also known as 'evitative', 'lest', etc.?	SAHUL088	Apprehensive	binary	TAME
+Is there an inclusive/exclusive distinction?	SAHUL028	InclExclDist	binary	pronouns
+Is there an inherent FOR system?	SAHUL5.1.05	AbsoluteFrameInherent	binary	deixis
+Is there an opposition between three or more distance terms in the demonstrative system?	SAHUL035	3TermDems	binary	deixis
+Is there case marking for core nominal NPs (i.e., S, A or O function)?	SAHUL2.9.01x	CaseCoreNP	binary	argument structure
+Is there case marking for core nominal NPs (i.e., S, A or O function)?	SAHUL070	CaseCoreNP	binary	argument structure
+Is there case marking for core pronouns?	SAHUL2.9.01ax	CaseCorePronouns	binary	argument structure
+Is there case marking for core pronouns?	SAHUL071	CaseCorePronouns	binary	argument structure
+Is there case marking for oblique nominal NPs ?	SAHUL2.9.02x	CaseOblqNP	binary	argument structure
+Is there case marking for oblique nominal NPs?	SAHUL072	OblNPCase	binary	argument structure
+Is there case marking for oblique pronouns?	SAHUL2.9.02ax	CaseOblqPronouns	binary	argument structure
+Is there case marking for oblique pronouns?	SAHUL073	CaseOblqPronouns	binary	argument structure
+Is there clause chaining?	SAHUL150	ClauseChain	binary	complex_verb
+Is there concord beyond the NP, i.e. agreement of elements outside the NP with the noun class of a noun?	SAHUL2.5.07	NPBeyondGenderAgr	binary	classifiers
+Is there concord within the NP, i.e. agreement of elements within the NP with the noun class of a noun?	SAHUL056	NPConcord	binary	classifiers
+Is there concordance of gender or number across constituents?	SAHUL4.5.02	ConcordanceGenderNum	binary	classifiers
+Is there contrast between heterorganic and homorganic sequence of nasal and velar stop?	SAHUL002	NasVelStpSeq	binary	phonology
+Is there evidence for any element of a quinary counting system?	SAHUL2.7.02	CountQuin	binary	counting
+Is there fixed word order within the NP?	SAHUL2.1.05	NPOrderFixed	binary	order
+Is there future tense regularly morphologically marked on the verb?	SAHUL084	FutTenseV	binary	TAME
+Is there incorporation of any element into verbs?	SAHUL3.7.07	VerbIncorp	binary	other
+Is there incorporation of nouns into verbs a productive intransitivizing process?	SAHUL124	VNIncorp	binary	transitivity
+Is there intransitivising morphology (include clitics)?	SAHUL3.6.05	Intransitivising	binary	transitivity
+Is there lexical overlap between a significant proportion of adjectives  and verbs (including zero-derivation)?	SAHUL2.8.02	AdjectivesVerby	binary	adjectives
+Is there lexically determined suprasegmental prominence?	SAHUL013	PhonStress	binary	other
+Is there morphology (include clitics) to mark a reciprocal action?	SAHUL115	RecipMorph	binary	argument structure
+Is there morphology (include clitics) to mark a reflexive action?	SAHUL114	ReflMorph	binary	argument structure
+Is there one or more auxiliary?	SAHUL3.7.04	Auxiliary	binary	TAME
+Is there one or more existential verb?	SAHUL126	ExistentialV	binary	other
+Is there past tense regularly morphologically marked on the verb?	SAHUL083	PastTenseV	binary	TAME
+Is there phonemic consonant length?	SAHUL010	PhonConsLen	binary	phonology
+Is there phonemic vowel length?	SAHUL011	PhonVowelLength	binary	phonology
+Is there present tense regularly morphologically marked on the verb?	SAHUL082	PresTense	binary	TAME
+Is there productive incorporation of other elements (adjectives, locatives, etc.) into verbs?	SAHUL125	VOtherIncorp	binary	other
+Is there syllable position sensitive suprasegmental prominence?	SAHUL015	SyllPosSens	binary	phonology
+Is there tail-head linkage?	SAHUL157	TailHeadLink	binary	syntax_other
+Is there transitivising morphology (include clitics)?	SAHUL113	TransMorph	binary	transitivity
+Is there weight-sensitive suprasegmental prominence suprasegmental prominence can be loudness, duration, pitch, i.e. stress or tone phenomena?	SAHUL014	WeightSens	binary	other
+Is topic or focus marked morphologically?	SAHUL4.5.01	MorphFocus	binary	syntax_other
+Is transitive object (O) marked on verbs?	SAHUL3.3.03	VerbO	binary	argument structure
+Is transitive subject (A) marked on verbs?	SAHUL3.3.02	VerbA	binary	argument structure
+Is verb compounding a regular process?	SAHUL122	VCompounding	binary	complex_verb
+What is the counting system?	SAHUL067	Counting	multi	counting
+What is the pragmatically unmarked order of S and V in instransitive clauses?	SAHUL130	OrderSV	multi	order
+What is the relative position of demonstrative and noun in the NP?	SAHUL025	OrderDem	multi	order
+What is the relative position of numeral and noun in the NP?	SAHUL024	OrderNumN	multi	order
+What is the relative position of possessor and possessed in the attributive possessive construction?	SAHUL065	OrderPosdPosr	multi	order

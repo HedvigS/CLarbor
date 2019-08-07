@@ -72,6 +72,27 @@ Steps 1 to 3 are implemented in the `demo_CLarbor_with_Sahul_uncontrolled.R` and
 
 Now we have a Chu-Liu/Edmonds arborescence (in our case trees) and weights for each feature in our dataset. We can use these weights when computing distances and in other analysis. We will now visualise these results, both when we control for external variables and when we don't, as well as the corresponding unweighted equivalents to demonstrate what the method is capable of.
 
+#### Data wrangling notes
+
+There are 3 files that you need for running this analysis.
+
+1. **`value_df` **
+
+A wide data table of your features and values. Features as columns with the first column being an identifier for the observations. This table should have end with "wide.tsv".
+
+2. **`external_variables_df`**
+
+A table with the external variables of the observations. In our case, a large table of meta-information about Glottolog languoids. You can select any other file here, as long as the first column contains identifiers that can be linked to the wide data table (1).
+
+If you wish to use another external variables file, changes this line in demo_tidying.R:
+
+`external_variables_fn <- "data/Glottolog_lookup_table_Heti_edition.tsv"`
+
+3. **`desc.tsv`**
+
+Feature meta-data file. This is used for the graphs of the CLarbors. It needs to have the following columns: Feature_ID, Abbreviation and group. Feature_ID needs to correspond to the column names in `value_df`. The abbreviations are going to be used as the names of the nodes i the CLarbor graph and the group is used to color similar features by the same colour. If you don't have any abbreviations for the features that you wish to use, or haven't grouped the features then unfortunately, for now, you just need to bear with us and copy over the Feature_ID and but the same characthers string for every row in the group-column.
+
+
 ## Results of demo
 Our functions produce three distance matrices for all the languages in our data.
 
@@ -167,10 +188,10 @@ In this demo, we ran the Chu-Liu/Edmonds algorithm over both the adjacency matri
 
 Furthermore, as has been discussed earlier, it is possible for the resulting Chu-Liu/Edmonds arborescnece to include nodes with more than one incoming edge. This happens if the incomoing edges are of identical weight. A graph of this kind cannot be represented as a tree. This is the case with our demo data. However, since the edges are of equal weight it does not matter for the purpose of computing dependency weight per feature. In the interest of making a readable graph, we have pruned the graph such that only one of these edges remain.^[We kept the edge that comes from the source node that is alphabetically before the other(s).] We can then lay out the graph as a tree, the results can be seen in figures that follow. (Features are represented using meaningful abbreviations rather than the question numbers that are found in the raw dataset. Also, we have colour-coded the features to make dependencies between logically related features stand out.) We also show the distribution of weights over the features next to each arborescence graph.
 
-![Pruned Chu-Liu graph of Sahul features (uncontrolled)](output/Vizualisations/CLarbor_plots/Sahul_best_CLarbor_uncontrolled_graph_pruned.pdf)
+![Pruned Chu-Liu graph of Sahul features (uncontrolled)](output/Vizualisations/CLarbor_plots/best_CLarbor_uncontrolled_graph_pruned.pdf)
 
 ```{r}
-read_tsv("output/CLarbors/Sahul_best_CLarbor_uncontrolled.tsv") %>% 
+read_tsv("output/CLarbors/best_CLarbor_uncontrolled.tsv") %>% 
   dplyr::select(Target_feature = `Target feature`, Weight) %>%
   distinct() %>% 
   ggplot() +
@@ -182,10 +203,10 @@ read_tsv("output/CLarbors/Sahul_best_CLarbor_uncontrolled.tsv") %>%
   ggtitle("Fig 2: Weights of each feature (uncontrolled)")
 ```
 
-![pruned Chu-Liu graph of Sahul features (controlled)](output/Vizualisations/CLarbor_plots/Sahul_best_CLarbor_controlled_graph_pruned.pdf)
+![pruned Chu-Liu graph of Sahul features (controlled)](output/Vizualisations/CLarbor_plots/best_CLarbor_controlled_graph_pruned.pdf)
 
 ```{r}
-read_tsv("output/CLarbors/Sahul_best_CLarbor_controlled.tsv") %>% 
+read_tsv("output/CLarbors/best_CLarbor_controlled.tsv") %>% 
   dplyr::select(Target_feature = `Target feature`, Weight) %>%
   distinct() %>% 
   ggplot() +

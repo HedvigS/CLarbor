@@ -21,7 +21,8 @@ pacman::p_load(tidyverse,
                RColorBrewer,
                randomcoloR,
                glue, 
-               reshape2)
+               reshape2, 
+               ggpubr)
 
 
 p_load_gh("abrozzi/microbio")
