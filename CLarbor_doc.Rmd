@@ -74,24 +74,19 @@ Now we have a Chu-Liu/Edmonds arborescence (in our case trees) and weights for e
 
 #### Data wrangling notes
 
-There are 3 files that you need for running this analysis.
+There are 3 files that you need for running this analysis. If you choose to not make any changes to our workflow, the only script you should need to adjust at all is `tidying.R`, which creates the 3 necessary data frames that all the other scripts rely on. 
 
 1. **`value_df` **
 
-A wide data table of your features and values. Features as columns with the first column being an identifier for the observations. This table should have end with "wide.tsv".
+A wide data table of your features and values. Features as columns with the first column being an identifier for the observations. This table should have end with "wide.tsv". The first column need not have a particular name, as long as it contains matching rows to the first column in (2).
 
 2. **`external_variables_df`**
 
 A table with the external variables of the observations. In our case, a large table of meta-information about Glottolog languoids. You can select any other file here, as long as the first column contains identifiers that can be linked to the wide data table (1).
 
-If you wish to use another external variables file, changes this line in demo_tidying.R:
-
-`external_variables_fn <- "data/Glottolog_lookup_table_Heti_edition.tsv"`
-
 3. **`desc.tsv`**
 
-Feature meta-data file. This is used for the graphs of the CLarbors. It needs to have the following columns: Feature_ID, Abbreviation and group. Feature_ID needs to correspond to the column names in `value_df`. The abbreviations are going to be used as the names of the nodes i the CLarbor graph and the group is used to color similar features by the same colour. If you don't have any abbreviations for the features that you wish to use, or haven't grouped the features then unfortunately, for now, you just need to bear with us and copy over the Feature_ID and but the same characthers string for every row in the group-column.
-
+Feature meta-data file. This is used for the graphs of the CLarbor structures. It needs to have the following columns: Feature_ID, Abbreviation and group. Feature_ID needs to correspond to the column names in `value_df`. The abbreviations are going to be used as the names of the nodes in the CLarbor graph and the group is used to color similar features by the same colour. If you don't have any abbreviations for the features that you wish to use, or haven't grouped the features then unfortunately, for now, you just need to bear with us and copy over the Feature_ID and put the same characthers string for every row in the group-column, then the CLarbor graphs will run fine.
 
 ## Results of demo
 Our functions produce three distance matrices for all the languages in our data.
@@ -158,7 +153,7 @@ diff_1_table and diff_2_table -->
 |	|	Bauzi	|	Duna	|	0.05778703	|
 Table 3: Changes in distances of language pair between unweighted and weighted uncontrolled distances (top and bottom 5).
 
-![Differences between 1 and 2](output/Vizualisations/difference_maps/Sahul_diff1_map_unweighted_vs_weighted_uncontrolled.pdf)
+![Differences between 1 and 2](output/Vizualisations/difference_maps/diff1_map_unweighted_vs_weighted_uncontrolled.pdf)
 
 When inspecting these tables and maps, do note that these differences are not huge. Furthermore, note the recurrence of Nalik (among languages that grew closer together), and Southern Sama (among languages that grew further apart). In particular, Southern Sama is moving away from two of its Austronesian Oceanic cousins. Remember, we haven't yet controlled for family membership or area, but the Austronesian family is still so dominant in our sample that it is likely to drive dependencies nontheless. I.e., Southern Sama is indeed very similar to Roviana and Renell-Bellona on account of their all being 'well-behaved' Austronesian languages, but once those traits become less important it moves further away from them.
 
@@ -179,7 +174,7 @@ Here are the languages whose distances changed the most in the transition from w
 |		|	Klon	|	Maori	|	0.07565244	|
 Table 4: Changes in distances of language pair between weighted uncontrolled and weighted controlled distances (top and bottom 5).
 
-![Differences between 2 and 3](output/Vizualisations/difference_maps/Sahul_diff2_map_weighted_uncontrolled_vs_weighted_controlled.pdf)
+![Differences between 2 and 3](output/Vizualisations/difference_maps/diff2_map_weighted_uncontrolled_vs_weighted_controlled.pdf)
 
 Ngandi, a Gunwinyguan language of Australia, is moving closer to both a fellow Australian but Pama-Nyungan language - Bandjalangic - and also to a language across the Torres Starit - Arammba of the Morehead-Wasur family of Southern New Guinea. On the other end of the spectrum, we have a Timor-Alor-Pantar language - Klon - that is moving away from two Austronesian languages - Maori and Rotuman. 
 
@@ -238,25 +233,25 @@ c. multidimensional Scaling (MDS)
 
 (See next page.)
 
-![Neighbour-joining trees](output/Vizualisations/distance_based/Neighbour_joining_trees/Sahul_NJT_all_three.pdf)
+![Neighbour-joining trees](output/Vizualisations/distance_based/Neighbour_joining_trees/NJT_all_three.pdf)
 
 #### NeighborNets (SplitsTree)
 
 (See following pages.)
 
-![Neighbournet generated by SplitsTree from the unweighted distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/sahul_unweighted_colored.pdf)
+![Neighbournet generated by SplitsTree from the unweighted distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/Sahul_unweighted_colored.pdf)
 
-![Neighbournet generated by SplitsTree from the weighted uncontrolled distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/sahul_weighted_uncontrolled_colored.pdf)
+![Neighbournet generated by SplitsTree from the weighted uncontrolled distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/Sahul_weighted_uncontrolled_colored.pdf)
 
 Comparing Fig 6 and 7, we can see that Southern Sama has now moved further apart from Oceanic Austronesian languages and instead closer to more western Austronesian languages. Overall however, the basic structure of the network doesn't change that much.
 
-![Neighbournet generated by SplitsTree from the weighted controlled distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/sahul_weighted_controlled_colored.pdf)
+![Neighbournet generated by SplitsTree from the weighted controlled distance matrix of the Sahul-survey](output/Vizualisations/distance_based/Neighbournet/coloured/Sahul_weighted_controlled_colored.pdf)
 
 #### Dimensionality reduction: multidimensional scaling (MDS)
 
 (See following pages.)
 
-![The first and second dimensions of the MDS analysis of each of the three datasets, coloured by macroarea](output/Vizualisations/distance_based/MDS/Sahul_MDS_all_three.pdf)
+![The first and second dimensions of the MDS analysis of each of the three datasets, coloured by macroarea](output/Vizualisations/distance_based/MDS/MDS_all_three.pdf)
 
 # Summary
 

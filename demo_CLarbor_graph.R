@@ -1,15 +1,12 @@
 source("package_dependencies.R")
 
-
-desc_fn <-list.files("data" , full.names = T, pattern = "desc.tsv")
-
-feature_abbrevs <- read_tsv(desc_fn) %>% 
+feature_abbrevs <- read_tsv("data/tidied/desc.tsv") %>% 
     dplyr::select(Feature_ID, Abbreviation) %>% 
   column_to_rownames("Feature_ID") %>%
   as.matrix() %>% 
   drop() 
 
-feature_groups <- read_tsv("data/Sahul_ID_desc.tsv") %>% 
+feature_groups <- read_tsv("data/tidied/desc.tsv") %>% 
   .$group %>% 
   factor()
 

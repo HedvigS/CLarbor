@@ -1,6 +1,6 @@
 source("package_dependencies.R")
 
-data_fn <-list.files("data" , full.names = T, pattern = "wide.tsv")
+data_fn <-list.files("data" , full.names = T, pattern = "wide*.tsv")
 
 data <- read_tsv(data_fn) %>% 
   rename("ID" = 1)
@@ -43,10 +43,25 @@ Feat_missing_stats <- tibble(Feature_ID = colnames(data_few_missing_values[,-1])
   na_prop_feat = colMeans(is.na(data_few_missing_values[,-1]), na.rm = T),
   num_non_na = apply(data_few_missing_values[,-1], 2, function(x){length(table(x))}))
 
+
+Feat_missing_stats_to_remove <- Feat_missing_stats%>% 
+  filter(na_prop_feat > 0.5) %>% 
+  dplyr::select(Feature_ID) %>% 
+  as.matrix() %>% 
+  as.vector()
+
 Feat_missing_stats$Feature_ID <- fct_reorder(Feat_missing_stats$Feature_ID, Feat_missing_stats$na_prop_feat)
 
+#Feat_missing_stats$Feature_ID <- fct_reorder(Feat_missing_stats$Feature_ID, Feat_missing_stats$na_prop_feat)
 #ggplot(data = Feat_missing_stats) +
 #  geom_line(aes(x= Feature_ID, y = na_prop_feat, group = 1))
+
+
+##Write the tidied dataframe to file
+data_few_missing_values %>% 
+  dplyr::select(-Feat_missing_stats_to_remove) %>% 
+  write_tsv("data/tidied/value_df.tsv")
+
 
 ##Write the tidied dataframe to file
 write_tsv(data_few_missing_values, "data/tidied/value_df.tsv")
@@ -62,3 +77,10 @@ read_tsv(external_variables_fn) %>%
                 AUTOTYP_area) %>%
   right_join(obs_remaining) %>%
   write_tsv("data/tidied/external_variables_df.tsv")
+
+
+read_tsv("data/Sahul_ID_desc.tsv") %>% 
+  dplyr::select(Feature_ID, Abbreviation, group) %>% 
+  write_tsv("data/tidied/desc.tsv")
+
+

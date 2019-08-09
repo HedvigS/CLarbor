@@ -1,0 +1,293 @@
+Feature_ID	Abbreviation	group
+SAHUL032	12PronConfl	pronouns
+SAHUL033	23PronConfl	pronouns
+SAHUL2.8.06	AdjectivesClass	classifiers
+SAHUL3.3.13	VerbIntransSame	argument structure
+SAHUL3.3.14	VerbTransSame	argument structure
+SAHUL2.3.04	DemDistNonSpeaker	deixis
+SAHUL103	BenMarkedV	argument structure
+SAHUL3.1.07	VerbNoPrefixSuffix	order
+SAHUL102	DistributedCategory	argument structure
+SAHUL155	AffixCaus	causatives
+SAHUL156	SayConstCaus	causatives
+SAHUL154	SerialVCaus	causatives
+SAHUL038	DemClassifier	classifiers
+SAHUL160	OtherRedup	reduplication
+SAHUL2.3.02	DemDist2	deixis
+SAHUL2.3.03	DemDist3	deixis
+SAHUL159	NounRedup	reduplication
+SAHUL2.1.04	NPNinital	order
+SAHUL034	PersCatNeut	argument structure
+SAHUL101	Portmanteau3Plus	argument structure
+SAHUL4.3.06	RelativeClauseInternalHead	relative
+SAHUL144	SAPivot	syntax_other
+SAHUL142	SAMorphConfl	syntax_other
+SAHUL143	SOPivot	syntax_other
+SAHUL141	SOMorphConfl	syntax_other
+SAHUL026	DiscontNP	order
+SAHUL112	LabileVerbs	transitivity
+SAHUL2.8.01	Adjectives	adjectives
+SAHUL2.9.05x	CoreNPAdpos	argument structure
+SAHUL076	CoreNPAdpos	argument structure
+SAHUL077	OblNPAdpos	argument structure
+SAHUL2.9.06x	OblNPAdpos	argument structure
+SAHUL3.1.01	VerbAffix	argument structure
+SAHUL001	NstopEqNNas	phonology
+SAHUL120	AspectAux	TAME
+SAHUL046	AssocPl	number nouns
+SAHUL2.7.05	QuantClass	classifiers
+SAHUL2.5.11	ClassifersOther	classifiers
+SAHUL2.5.08	Classifiers	classifiers
+SAHUL3.1.02	VerbClitics	syntax_other
+SAHUL4.3.09b	ComplementClausePercept	complement
+SAHUL4.3.09a	ComplementClauseSpeech	complement
+SAHUL4.3.09	ComplementClause	complement
+SAHUL4.3.08a	SubordNonFinCond	complement
+SAHUL111	ConjClasses	classifiers
+SAHUL019	CodaCClust	phonology
+SAHUL018	OnsetCClust	phonology
+SAHUL1.2.03	ConsClusters	phonology
+SAHUL1.1.12	VowelPhonation	phonology
+SAHUL040	GenderDecl	classifiers
+SAHUL039	NumDecl	number nouns
+SAHUL020	DefSpecArt	deixis
+SAHUL2.3.01	DemDist	deixis
+SAHUL066	DiffOrdPoss	classifiers
+SAHUL060	MultPossCons	deixis
+SAHUL003	Frics	phonology
+SAHUL2.1.02	IndefArticle	deixis
+SAHUL119	ModalAux	TAME
+SAHUL085	MultiTense	TAME
+SAHUL3.7.02	NonVerbalPred	syntax_other
+SAHUL050	Genders	classifiers
+SAHUL2.4.04	NounDeclNotGenderNum	number nouns
+SAHUL2.4.01	NounDecl	classifiers
+SAHUL041	SuppletiveN	number nouns
+SAHUL057	NumClassif	classifiers
+SAHUL2.3.06	DemDistOther	deixis
+SAHUL4.3.10	SubordOther	syntax_other
+SAHUL4.4.04	CausOther	causatives
+SAHUL4.3.11	Participle	syntax_other
+SAHUL004	PrenasStops	phonology
+SAHUL127	PositionialV	classifiers
+SAHUL2.6.01	ClassifersPoss	classifiers
+SAHUL058	PossClassif	classifiers
+SAHUL023	PostnomArt	order
+SAHUL075	Postpositions	order
+SAHUL2.9.04x	Postpositions	order
+SAHUL022	PrenomArt	order
+SAHUL074	Prepositions	order
+SAHUL2.9.03x	Prepositions	order
+SAHUL4.3.07	SubordNonFinPurpose	syntax_other
+SAHUL1.1.14	RarePhonemes	phonology
+SAHUL4.3.05a	RelativeClauseEmbed	relative
+SAHUL4.3.05	RelativeClause	relative
+SAHUL009	RetroflexC	phonology
+SAHUL5.2.04	GrandparentsSelcConv	kinship
+SAHUL118	SerialVConst	complex_verb
+SAHUL6.1.03	HuntingRegister	other
+SAHUL109	VSuppletion	argument structure
+SAHUL110	TASuppletion	TAME
+SAHUL1.2.01	ConsSyllableFinal	phonology
+SAHUL106	DitransitiveVerbs	syntax_other
+SAHUL3.2.01	VerbTAMAffix	TAME
+SAHUL3.2.02	VerbTAMOther	TAME
+SAHUL4.3.08	SubordNonFinTemp	TAME
+SAHUL121	TenseAux	TAME
+SAHUL012	CentralVContr	phonology
+SAHUL3.3.19	MarkingVariationsOther	argument structure
+SAHUL123	VAdjuncts	syntax_other
+SAHUL017	WordFinalC	phonology
+SAHUL2.7.04	QuantWord	number nouns
+SAHUL098	VVarPerson	argument structure
+SAHUL097	VVarClType	argument structure
+SAHUL095	VVarTam	argument structure
+SAHUL096	VVarVClass	argument structure
+SAHUL140	VNonVNeg	negation
+SAHUL158	VerbRedup	reduplication
+SAHUL2.4.10	NounNumOther	number nouns
+SAHUL043	DualMarkedN	number nouns
+SAHUL081	VInfix	other_verb
+SAHUL104	InstMarkedV	argument structure
+SAHUL108	VLocativeDir	argument structure
+SAHUL137	ClFinalNeg	negation
+SAHUL138	ClInitNeg	negation
+SAHUL2.4.06	NounNum	number nouns
+SAHUL044	PlMarkedN	number nouns
+SAHUL061	PossPrefix	order
+SAHUL062	PossSuffix	order
+SAHUL2.6.04	PossMorph	possession
+SAHUL064	MarkedPossd	possession
+SAHUL063	MarkedPossr	possession
+SAHUL105	RecipientObj	argument structure
+SAHUL042	SingMarkedN	number nouns
+SAHUL6.1.02	ColexificationBodyLandscape	other
+SAHUL6.1.01	KinshipDesc	kinship
+SAHUL2.8.03	AdjectivesAttr	adjectives
+SAHUL2.8.04	AdjectivesPred	adjectives
+SAHUL135	ClObjPoss	syntax_other
+SAHUL068	VlikePredAdj	adjectives
+SAHUL069	VlikeAttrAdj	adjectives
+SAHUL2.1.05b	NNum	order
+SAHUL2.1.05a	NumN	order
+SAHUL145	SOConflOther	argument structure
+SAHUL3.1.03	TAMPersonPortmanteau	TAME
+SAHUL3.3.20	NumberStemAlt	argument structure
+SAHUL099	PersonStemAlt	argument structure
+SAHUL116	ShapeClass	classifiers
+SAHUL079	VPrefixASO	order
+SAHUL3.1.04	VerbPrefix	order
+SAHUL080	VSuffixASO	order
+SAHUL3.1.05	VerbSuffix	order
+SAHUL4.5.04	Reduplication	reduplication
+SAHUL5.1.04	AbsoluteFrameOther	deixis
+SAHUL5.1.03	AbsoluteFrameEast	deixis
+SAHUL5.1.02	AbsoluteFrameInland	deixis
+SAHUL2.1.05d	NDem	order
+SAHUL2.1.05c	DemN	order
+SAHUL055	GenderOnly3	classifiers
+SAHUL2.8.05	AdjectivesLexicalSet	adjectives
+SAHUL1.1.01	PhonemeInv	phonology
+SAHUL3.2.08	VerbAMFused	TAME
+SAHUL3.2.06	VerbTAFused	TAME
+SAHUL3.2.09	VerbTAMFused	TAME
+SAHUL3.2.07	VerbTMFused	TAME
+SAHUL1.1.04	ArticulationManners	phonology
+SAHUL1.1.03	ArticulationPlaceNasal	phonology
+SAHUL1.1.02	ArticulationPlaceStop	phonology
+SAHUL3.2.04	VerbPureAspect	TAME
+SAHUL3.2.05	VerbPureMoods	TAME
+SAHUL3.2.03	VerbPureTense	TAME
+SAHUL1.1.13	VowelPosition	phonology
+SAHUL2.6.09	PossrPossdIfFixed	order
+SAHUL2.5.01a	GenderMany	classifiers
+SAHUL086	PunctualCont	TAME
+SAHUL087	RealisIrreal	TAME
+SAHUL3.4.01	VerbOblqMorph	argument structure
+SAHUL4.1.01	IntransSV	order
+SAHUL133	VFinalTrans	order
+SAHUL131	VInitTrans	order
+SAHUL132	VMedTrans	order
+SAHUL4.1.02	IntransVS	order
+SAHUL059	Inalien	possession
+SAHUL021	IndefArticleObl	deixis
+SAHUL053	AnimGender	classifiers
+SAHUL3.5.06	VerbMorphOther	negation
+SAHUL136	FixedConOrd	order
+SAHUL3.5.05	VerbDirection	argument structure
+SAHUL036	VerticalDem	deixis
+SAHUL3.5.02	GenderSepPerson	classifiers
+SAHUL3.3.01	VerbSMorph	transitivity
+SAHUL107	VNegation	negation
+SAHUL100	SepVerbNumPerson	argument structure
+SAHUL3.5.03	NumSepPerson	argument structure
+SAHUL2.2.03	ProNum	pronouns
+SAHUL045	LimitedNum	number nouns
+SAHUL054	PlantGender	classifiers
+SAHUL2.6.09b	PossdPossr	order
+SAHUL2.6.09a	PossrPossd	order
+SAHUL5.2.10	SiblingAge	kinship
+SAHUL051	SexGender	classifiers
+SAHUL5.2.11	SiblingSexReferent	kinship
+SAHUL5.2.12	SiblingSexSpeaker	kinship
+SAHUL052	ShapeGender	classifiers
+SAHUL092	APrefix	argument structure
+SAHUL091	ASuffix	argument structure
+SAHUL3.3.05	VerbGender	argument structure
+SAHUL3.3.06	VerbNumber	number verb
+SAHUL094	OPrefix	argument structure
+SAHUL093	OSuffix	argument structure
+SAHUL037	VisNonvisDem	deixis
+SAHUL134	MainSubClOrd	order
+SAHUL2.1.03	ArtN	order
+SAHUL3.3.04	VerbPerson	argument structure
+SAHUL090	SPrefix	argument structure
+SAHUL089	SSuffix	argument structure
+SAHUL5.2.08	ChildDistinctMotherFather	kinship
+SAHUL5.2.09	ChildDistinctMotherUncle	kinship
+SAHUL5.2.02	FSameFB	kinship
+SAHUL5.2.03	MBSameFB	kinship
+SAHUL128	IrregGive	argument structure
+SAHUL153	DesidSay	argument structure
+SAHUL2.7.03a	CountBody	counting
+SAHUL4.3.09d	ComplementizerPost	syntax_other
+SAHUL4.3.09c	ComplementizerPre	syntax_other
+SAHUL5.2.01	KinDyads	kinship
+SAHUL117	Copula	syntax_other
+SAHUL2.7.03	CountOther	counting
+SAHUL2.7.01	CountDec	counting
+SAHUL139	ImpDeclNeg	negation
+SAHUL027	CoordComit	syntax_other
+SAHUL078	LocDirAdpos	deixis
+SAHUL031	DualPronoun	counting
+SAHUL030	GenDist3rd	classifiers
+SAHUL008	LaminalApical	phonology
+SAHUL2.7.03b	CountMinimal	counting
+SAHUL029	MinAug	pronouns
+SAHUL146	ControlPred	other
+SAHUL148	MorphAntipas	transitivity
+SAHUL152	SimSeqCl	TAME
+SAHUL149	MorphInverse	transitivity
+SAHUL147	MorphPass	transitivity
+SAHUL151	SwitchRef	transitivity
+SAHUL129	ClosedClassV	complex_verb
+SAHUL005	LRDist	phonology
+SAHUL006	PhonVelarFricOrGlide	phonology
+SAHUL047	ActStateNmzr	other
+SAHUL048	AgentiveNmzr	other
+SAHUL049	ObjectNmzr	other
+SAHUL5.1.06	AbsoluteFrameRelative	deixis
+SAHUL5.2.05	CousinsCrossParallel	kinship
+SAHUL5.2.06	CousinsFirstSecond	kinship
+SAHUL5.2.07	CousinsMatriPatri	kinship
+SAHUL016	Tonal	phonology
+SAHUL007	VoiceContr	phonology
+SAHUL5.1.01	AbsoluteFrame	deixis
+SAHUL4.2a.04	ActorUndergoerVoice	transitivity
+SAHUL088	Apprehensive	TAME
+SAHUL028	InclExclDist	pronouns
+SAHUL5.1.05	AbsoluteFrameInherent	deixis
+SAHUL035	3TermDems	deixis
+SAHUL2.9.01x	CaseCoreNP	argument structure
+SAHUL070	CaseCoreNP	argument structure
+SAHUL2.9.01ax	CaseCorePronouns	argument structure
+SAHUL071	CaseCorePronouns	argument structure
+SAHUL2.9.02x	CaseOblqNP	argument structure
+SAHUL072	OblNPCase	argument structure
+SAHUL2.9.02ax	CaseOblqPronouns	argument structure
+SAHUL073	CaseOblqPronouns	argument structure
+SAHUL150	ClauseChain	complex_verb
+SAHUL2.5.07	NPBeyondGenderAgr	classifiers
+SAHUL056	NPConcord	classifiers
+SAHUL4.5.02	ConcordanceGenderNum	classifiers
+SAHUL002	NasVelStpSeq	phonology
+SAHUL2.7.02	CountQuin	counting
+SAHUL2.1.05	NPOrderFixed	order
+SAHUL084	FutTenseV	TAME
+SAHUL3.7.07	VerbIncorp	other
+SAHUL124	VNIncorp	transitivity
+SAHUL3.6.05	Intransitivising	transitivity
+SAHUL2.8.02	AdjectivesVerby	adjectives
+SAHUL013	PhonStress	other
+SAHUL115	RecipMorph	argument structure
+SAHUL114	ReflMorph	argument structure
+SAHUL3.7.04	Auxiliary	TAME
+SAHUL126	ExistentialV	other
+SAHUL083	PastTenseV	TAME
+SAHUL010	PhonConsLen	phonology
+SAHUL011	PhonVowelLength	phonology
+SAHUL082	PresTense	TAME
+SAHUL125	VOtherIncorp	other
+SAHUL015	SyllPosSens	phonology
+SAHUL157	TailHeadLink	syntax_other
+SAHUL113	TransMorph	transitivity
+SAHUL014	WeightSens	other
+SAHUL4.5.01	MorphFocus	syntax_other
+SAHUL3.3.03	VerbO	argument structure
+SAHUL3.3.02	VerbA	argument structure
+SAHUL122	VCompounding	complex_verb
+SAHUL067	Counting	counting
+SAHUL130	OrderSV	order
+SAHUL025	OrderDem	order
+SAHUL024	OrderNumN	order
+SAHUL065	OrderPosdPosr	order
