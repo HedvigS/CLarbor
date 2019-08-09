@@ -2,11 +2,11 @@ start_time <- Sys.time()
 
 source("package_dependencies.R")
 
-source("demo_tidying_sahul.R")
+source("demo_tidying.R")
 
-source("demo_CLarbor_with_sahul_uncontrolled.R")
+source("demo_CLarbor_with_uncontrolled.R")
 
-source("demo_CLarbor_with_sahul_controlled.R")
+source("demo_CLarbor_with_controlled.R")
 
 source("demo_CLarbor_graph.R")
 
