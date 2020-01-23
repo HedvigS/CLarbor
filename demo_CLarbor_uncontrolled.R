@@ -20,4 +20,4 @@ write_tsv(as_tibble(best_CLarbor_df) %>% type_convert(), "output/CLarbors/best_C
 write_file(best_CLarbor$root, "output/CLarbors/best_root_uncontrolled.txt")
 
 all_CLarbors <- best_CLarbor$all.arbors
-try(save(all_CLarbors, "output/CLarbors/all_CLarbors_uncontrolled.RData"))
+try(saveRDS(all_CLarbors, "output/CLarbors/all_CLarbors_uncontrolled.RDS"))

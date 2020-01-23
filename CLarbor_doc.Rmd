@@ -251,7 +251,7 @@ Comparing Fig 6 and 7, we can see that Southern Sama has now moved further apart
 
 (See following pages.)
 
-![The first and second dimensions of the MDS analysis of each of the three datasets, coloured by macroarea](output/Vizualisations/distance_based/MDS/MDS_all_three.pdf)
+![The first and second dimensions of the MDS analysis of each of the three datasets, coloured by language family](output/Vizualisations/distance_based/MDS/MDS_all_three.pdf)
 
 # Summary
 

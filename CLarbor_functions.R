@@ -105,8 +105,10 @@ CLarbor_from_dep_matrix_known_root <- function(dep_matrix, root){
   }
   
   G <- 1 - dep_matrix
-  message(paste0(round(100*(sum(G == 0) - nrow(G))/(length(G) - nrow(G)),2), "% of the dependencies are perfect. We're going to replace them with epsilons."))
-  G[G == 0] <- .Machine$double.eps #a epsilon needs to be added because in cases where a trait is entirely predictable by another trait, the weight of the edge would be zero and for igraph that means that there isn't an edge at all, and the Chu-Liu/Edmons algorithm needs to be set loose on a completely connected graph. So, we introduce a tiny tiny weight to all edges in order to make sure that we get a connected network.
+  message(paste0(round(100*(sum(G == 0) - nrow(G))/(length(G) - nrow(G)),2), "% of the dependencies are perfect. The perfect dependencies will be replace them with epsilons so that the edge still exists. If there were no perfect dependencies, nothing happens."))
+  G[G == 0] <- .Machine$double.eps 
+  
+  #a epsilon needs to be added because in cases where a trait is entirely predictable by another trait, the weight of the edge would be zero and for igraph that means that there isn't an edge at all, and the Chu-Liu/Edmons algorithm needs to be set loose on a completely connected graph. So, we introduce a tiny tiny weight to all edges in order to make sure that we get a connected network.
   
   diag(G) <- 0
   dimnames(G) <- NULL
